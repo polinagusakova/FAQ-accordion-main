@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/*Main section*/
 body {
     background-color: hsl(275, 100%, 97%);
     font-family: "Work Sans", sans-serif;
@@ -19,10 +20,6 @@ body {
     align-items: center;
     min-height: 100svh;
     gap: 2rem;
-}
-
-.pattern-desktop {
-    width: 100%;
 }
 
 .container {
@@ -75,9 +72,12 @@ hr {
     width: 100%;
 }
 
+/*Footer section*/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+
+/*Change screen size*/
 @media screen and (max-width: 978px) {
     body {        
         background-image: url(./images/background-pattern-mobile.svg);
